@@ -1,0 +1,18 @@
+<include file="common/header" />
+    <div id="sy">
+        home222222 首页
+        <el-button @click="visible = true">Button</el-button>
+        <el-dialog :visible.sync="visible" title="Hello world">
+            <p>shouye xinxi</p>
+        </el-dialog>
+    </div>
+<include file="common/footer" />
+<script>
+    console.log(11111);
+    new Vue({
+        el: '#sy',
+        data: function() {
+            return { visible: false }
+        }
+    });
+</script>

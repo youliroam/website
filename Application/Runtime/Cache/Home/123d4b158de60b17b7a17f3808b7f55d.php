@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>这个页面是首页
